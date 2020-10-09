@@ -390,8 +390,14 @@ a:hover, a:active, a:focus {
  * Basic typography style for copy text
  */
 body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Spartan", Arial;
+  font-size: 15px;
+  color: #937b92;
+}
+
+h1 {
+  color: #502050;
+  font-size: 32px;
 }
 
 /**

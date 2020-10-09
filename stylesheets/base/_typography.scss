@@ -2,6 +2,12 @@
  * Basic typography style for copy text
  */
 body {
-  color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $darkGrayishMagenta;
+}
+
+h1 {
+  color: $veryDarkMegenta;
+  font-size: 32px; //change from pixels later
 }
