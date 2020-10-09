@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the rating component.
+// -----------------------------------------------------------------------------
+
+.rating {
+  display: grid;
+  grid-gap: 16px;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

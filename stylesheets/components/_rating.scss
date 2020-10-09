@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the rating component.
+// -----------------------------------------------------------------------------
+
+.rating {
+  &__block {
+    height: 78px;
+    background-color: $lightGrayishMagenta;
+  }
+}

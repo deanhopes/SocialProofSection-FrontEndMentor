@@ -10,10 +10,11 @@
 @import 'base/base', 'base/fonts', 'base/typography', 'base/helpers';
 
 // 4. Layout-related sections
-@import 'layout/container', 'layout/hero', 'layout/header', 'layout/footer';
+@import 'layout/container', 'layout/hero', 'layout/header', 'layout/footer',
+  'layout/rating';
 
 // 5. Components
-@import 'components/button';
+@import 'components/button', 'components/rating';
 
 // 6. Page-specific styles
 @import 'pages/home';
