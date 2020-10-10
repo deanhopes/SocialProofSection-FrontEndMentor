@@ -3,15 +3,16 @@
 // -----------------------------------------------------------------------------
 
 $veryDarkMegenta: hsl(300, 43%, 22%);
-$softPink: hs1(333, 80%, 67%);
+$softPink: hsl(333, 80%, 67%);
 
 $darkGrayishMagenta: hsl(303, 10%, 53%);
 $lightGrayishMagenta: hsl(300, 24%, 96%);
 $white: hsl(0, 0%, 100%);
 
-$fontSize: 15px;
+$normalFontSize: 15px;
+$smallFontSize: 13px;
 
 $fontFamily: 'Spartan', Arial;
-$fontWeightNorm: 400;
-$fontWeightMed: 500;
-$fontWeightBold: 700;
+$fontNorm: 400;
+$fontMed: 500;
+$fontBold: 700;

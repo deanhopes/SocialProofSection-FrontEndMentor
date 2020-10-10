@@ -2,9 +2,15 @@
 // This file contains all styles related to the rating component.
 // -----------------------------------------------------------------------------
 
-.rating {
-  &__block {
-    height: 78px;
-    background-color: $lightGrayishMagenta;
+.ratingblock {
+  height: 78px;
+  background-color: $lightGrayishMagenta;
+  font-weight: $fontBold;
+  color: $veryDarkMegenta;
+  border-radius: 8px;
+  font-size: $smallFontSize;
+
+  &__5stars {
+    justify-self: center;
   }
 }

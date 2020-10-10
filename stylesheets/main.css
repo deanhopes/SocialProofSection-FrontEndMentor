@@ -423,24 +423,29 @@ h1 {
   grid-gap: 16px;
 }
 
-.rating__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.ratingblock {
+  display: -ms-grid;
+  display: grid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px;
 }
 
-.rating__block {
+.ratingblock {
   height: 78px;
   background-color: #f7f2f7;
+  font-weight: 700;
+  color: #502050;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.ratingblock__5stars {
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 /*# sourceMappingURL=main.css.map */
