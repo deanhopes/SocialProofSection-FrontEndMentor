@@ -378,7 +378,7 @@ body {
  */
 body {
   font-family: "Spartan", Arial;
-  font-size: 15px;
+  font-size: 400;
   color: #937b92;
 }
 
@@ -435,6 +435,15 @@ h1 {
   padding: 10px;
 }
 
+.testimonials {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template: 1fr 1fr 1fr / 1fr;
+  grid-gap: 16px;
+}
+
 .ratingblock {
   height: 78px;
   background-color: #f7f2f7;
@@ -447,5 +456,23 @@ h1 {
 .ratingblock__5stars {
   -ms-grid-column-align: center;
       justify-self: center;
+}
+
+.testiblock {
+  height: 248px;
+  width: 327px;
+  background-color: #502050;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+.testiblock__buyer :nth-child(1) {
+  font-weight: 700;
+}
+
+.testiblock__buyer :nth-child(2) {
+  font-weight: 400;
 }
 /*# sourceMappingURL=main.css.map */

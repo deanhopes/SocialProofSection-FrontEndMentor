@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all layouts related to the testimonials component.
+// -----------------------------------------------------------------------------
+
+.testimonials {
+  display: grid;
+  grid-template:
+    1fr
+    1fr
+    1fr / 1fr;
+  grid-gap: 16px;
+}

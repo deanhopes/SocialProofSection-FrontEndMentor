@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the testimonials component.
+// -----------------------------------------------------------------------------
+
+.testiblock {
+  height: 248px;
+  width: 327px;
+  background-color: $veryDarkMegenta;
+  border-radius: 8px;
+  font-size: $smallFontSize;
+  font-weight: $fontMed;
+  color: white;
+
+  &__buyer {
+    :nth-child(1) {
+      font-weight: $fontBold;
+    }
+    :nth-child(2) {
+      font-weight: $fontNorm;
+    }
+  }
+}

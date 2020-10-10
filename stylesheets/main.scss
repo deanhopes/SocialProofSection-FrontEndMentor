@@ -11,10 +11,10 @@
 
 // 4. Layout-related sections
 @import 'layout/container', 'layout/hero', 'layout/header', 'layout/footer',
-  'layout/rating';
+  'layout/rating', 'layout/testimonials';
 
 // 5. Components
-@import 'components/button', 'components/rating';
+@import 'components/button', 'components/rating', 'components/testimonials';
 
 // 6. Page-specific styles
 @import 'pages/home';
