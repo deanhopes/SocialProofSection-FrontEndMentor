@@ -468,11 +468,26 @@ h1 {
   color: white;
 }
 
+.testiblock__buyer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.testiblock__buyer img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
 .testiblock__buyer :nth-child(1) {
   font-weight: 700;
 }
 
 .testiblock__buyer :nth-child(2) {
   font-weight: 400;
+  color: #ee68a4;
 }
 /*# sourceMappingURL=main.css.map */
