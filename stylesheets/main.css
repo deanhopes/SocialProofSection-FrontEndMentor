@@ -390,11 +390,6 @@ h1 {
 .container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: -webkit-min-content 1fr 1fr;
-  -ms-grid-rows: min-content 1fr 1fr;
-  -ms-grid-columns: 1fr;
-      grid-template: -webkit-min-content 1fr 1fr / 1fr;
-      grid-template: min-content 1fr 1fr / 1fr;
   margin: 80px 24px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -421,6 +416,7 @@ h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 16px;
+  height: 266px;
 }
 
 .ratingblock {
@@ -442,7 +438,6 @@ h1 {
   -ms-grid-columns: 1fr;
       grid-template: 1fr 1fr 1fr / 1fr;
   grid-gap: 16px;
-  margin-top: 49px;
 }
 
 .ratingblock {
