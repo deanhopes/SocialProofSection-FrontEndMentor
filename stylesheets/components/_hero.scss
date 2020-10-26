@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the hero component.
+// -----------------------------------------------------------------------------
+
+.hero {
+  h1 {
+    letter-spacing: $heroH1LetterSpacing;
+    font-weight: $heroH1FontWeight;
+    font-size: $heroH1FontSize;
+    line-height: $heroH1LineHeight;
+  }
+  p {
+    font-weight: $fontMed;
+    font-size: $normalFontSize;
+    letter-spacing: $heroPLetterSpacing;
+    line-height: $heroPLineHeight;
+  }
+}

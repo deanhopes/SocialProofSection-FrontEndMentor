@@ -442,6 +442,7 @@ h1 {
   -ms-grid-columns: 1fr;
       grid-template: 1fr 1fr 1fr / 1fr;
   grid-gap: 16px;
+  margin-top: 49px;
 }
 
 .ratingblock {
@@ -489,5 +490,19 @@ h1 {
 .testiblock__buyer :nth-child(2) {
   font-weight: 400;
   color: #ee68a4;
+}
+
+.hero h1 {
+  letter-spacing: -1.14286px;
+  font-weight: 32px;
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.hero p {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  line-height: 25px;
 }
 /*# sourceMappingURL=main.css.map */
