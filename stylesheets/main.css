@@ -457,6 +457,21 @@ h1 {
   margin-top: 0.6em;
 }
 
+@media (min-width: 376px) and (max-width: 767px) {
+  .testimonials {
+    display: -ms-grid;
+    display: grid;
+  }
+  .testimonials :nth-child(2) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .testimonials :nth-child(3) {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+}
+
 .testimonials .testiblock {
   display: -ms-grid;
   display: grid;
@@ -487,6 +502,14 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (min-width: 376px) and (max-width: 767px) {
+  .testimonials .testiblock__text {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-top: 3px;
+  }
 }
 
 .ratingblock {
