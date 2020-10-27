@@ -10,7 +10,9 @@
   font-size: $smallFontSize;
   font-weight: $fontMed;
   color: white;
-
+  line-height: 22px;
+  letter-spacing: -0.232143px;
+  
   &__container {
     img {
       height: 40px;
@@ -19,16 +21,16 @@
     }
   }
 
-    &__text {
-      :nth-child(1) {
-        line-height: 14.56px;
-        font-weight: $fontBold;
-        padding: 0 0 6px;
-      }
-      :nth-child(2) {
-        line-height: 14.56px;
-        font-weight: $fontNorm;
-        color: $softPink;
-      }
+  &__text {
+    :nth-child(1) {
+      line-height: 14.56px;
+      font-weight: $fontBold;
+      padding: 0 0 6px;
     }
+    :nth-child(2) {
+      line-height: 14.56px;
+      font-weight: $fontNorm;
+      color: $softPink;
+    }
+  }
 }
