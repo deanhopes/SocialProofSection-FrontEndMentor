@@ -22,7 +22,8 @@
         "components/_testimonials.scss",
         "components/_hero.scss",
         "pages/_home.scss",
-        "themes/_default.scss"
+        "themes/_default.scss",
+        "breakpoints/_breakpoints.scss"
     ],
     "names": [],
     "file": "main.css"
