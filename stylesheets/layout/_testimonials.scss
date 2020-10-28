@@ -50,9 +50,6 @@
     }
 
     &__text {
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
       @include media('>375px', '<=1060px') {
         justify-self: start;
         margin-top: 3px;
