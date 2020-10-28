@@ -11,14 +11,28 @@
   grid-gap: 16px;
   margin-top: 0.6em;
 
-  @include media('>375px', '<tablet') {
-    display: grid;
-
+  @include media('>375px', '<1070px') {
     :nth-child(2) {
       justify-self: center;
     }
     :nth-child(3) {
       justify-self: end;
+    }
+  }
+
+  @include media('>1070px', '<1920px') {
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 30px;
+    height: 266px;
+
+    :nth-child(1) {
+      align-self: start;
+    }
+    :nth-child(2) {
+      align-self: center;
+    }
+    :nth-child(3) {
+      align-self: end;
     }
   }
 
@@ -38,7 +52,7 @@
       justify-content: center;
       display: flex;
       flex-direction: column;
-      @include media('>375px', '<tablet') {
+      @include media('>375px', '<1070px') {
         justify-self: start;
         margin-top: 3px;
       }
