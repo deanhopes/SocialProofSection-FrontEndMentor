@@ -8,6 +8,12 @@
     font-weight: $heroH1FontWeight;
     font-size: $heroH1FontSize;
     line-height: $heroH1LineHeight;
+
+    @include media('>=1440px') {
+      font-size: $heroH1FontSizeLrg;
+      line-height: $heroH1LineHeightLrg;
+    }
+
   }
   p {
     font-weight: $fontMed;

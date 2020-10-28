@@ -7,6 +7,10 @@
   flex-direction: column;
   text-align: center;
 
+  @include media('>=1440px') {
+    width: 445px;
+  }
+
   h1 {
     margin-top: 0;
   }

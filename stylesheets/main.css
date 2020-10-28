@@ -408,6 +408,12 @@ h1 {
   text-align: center;
 }
 
+@media (min-width: 1440px) {
+  .hero {
+    width: 445px;
+  }
+}
+
 .hero h1 {
   margin-top: 0;
 }
@@ -421,30 +427,53 @@ h1 {
   display: grid;
   grid-gap: 16px;
   height: 266px;
+  -ms-grid-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr;
+      grid-template: 1fr 1fr 1fr / 1fr;
 }
 
-.ratingblock {
-  display: -ms-grid;
-  display: grid;
+@media (min-width: 376px) and (max-width: 575px) {
+  .rating :nth-child(1) {
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  .rating :nth-child(2) {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .rating :nth-child(3) {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+}
+
+.rating .ratingblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px;
+  min-width: 327px;
 }
 
-.ratingblock__5stars {
+.rating .ratingblock__5stars {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   grid-gap: 8px;
-  margin-top: 0.1em;
+  padding-top: 0.1em;
 }
 
-.ratingblock__text {
-  margin-top: 0.4em;
+.rating .ratingblock__text {
+  padding-top: 1.1em;
 }
 
 .testimonials {
@@ -582,6 +611,13 @@ h1 {
   font-weight: 32px;
   font-size: 32px;
   line-height: 32px;
+}
+
+@media (min-width: 1440px) {
+  .hero h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
 }
 
 .hero p {
