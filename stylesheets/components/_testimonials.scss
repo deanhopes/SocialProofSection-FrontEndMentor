@@ -13,6 +13,11 @@
   line-height: 22px;
   letter-spacing: -0.232143px;
   
+  @include media('>=1440px') {
+    width: 350px;
+    height: 234px;
+  }
+  
   &__container {
     img {
       height: 40px;

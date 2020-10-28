@@ -9,6 +9,7 @@
 
   @include media('>=1440px') {
     width: 445px;
+    grid-area: 1/1;
   }
 
   h1 {

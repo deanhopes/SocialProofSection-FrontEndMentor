@@ -19,6 +19,11 @@
       justify-self: end;
     }
   }
+  @include media('>=1440px') {
+    width: 540px;
+    grid-area: 1/1;
+    justify-self: end;
+  }
 
   .ratingblock {
     display: flex;
@@ -26,6 +31,10 @@
     justify-content: center;
     align-items: center;
     min-width: 327px;
+
+    @include media('>=1440px') {
+      width: 445px;
+    }
 
     &__5stars {
       display: grid;

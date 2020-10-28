@@ -7,4 +7,9 @@
   margin: 80px 24px;
   justify-content: center;
   grid-gap: 40px 48px;
+
+  @include media('>=1440px') {
+    grid-template: 1fr 1fr / 1fr;
+    margin: 165px 127px;
+  }
 }
