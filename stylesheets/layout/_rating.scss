@@ -29,6 +29,9 @@
 
     @include media('>=1440px') {
       width: 445px;
+      height: 56px;
+      flex-direction: initial;
+      padding: 0;
     }
 
     &__5stars {
@@ -36,9 +39,16 @@
       grid-auto-flow: column;
       grid-gap: 8px;
       padding-top: 0.1em;
+      @include media('>=1440px') {
+        padding-right: 32px;
+      }
     }
     &__text {
       padding-top: 1.1em;
+      @include media('>=1440px') {
+        padding-top: 0;
+        justify-self: center;
+      }
     }
   }
 }
