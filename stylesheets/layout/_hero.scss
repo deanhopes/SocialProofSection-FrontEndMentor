@@ -14,8 +14,16 @@
 
   h1 {
     margin-top: 0;
+    @include media('>=1440px') {
+      text-align: left;
+      margin-bottom: 14px;
+    }
   }
   p {
     padding-top: 2px;
+    @include media('>=1440px') {
+      text-align: left;
+      padding-top: 0;
+    }
   }
 }

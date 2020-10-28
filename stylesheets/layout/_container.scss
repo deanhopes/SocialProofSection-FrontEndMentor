@@ -11,5 +11,6 @@
   @include media('>=1440px') {
     grid-template: 1fr 1fr / 1fr;
     margin: 165px 127px;
+    max-width: 1110px;
   }
 }
