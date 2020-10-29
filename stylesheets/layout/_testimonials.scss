@@ -57,6 +57,15 @@
         justify-self: start;
         margin-top: 3px;
       }
+      @include media('>=1440px') {
+        .textchange span {
+          display: none;
+        }
+        .textchange:after {
+          content: 'Colton Smith';
+          color: white;
+        }
+      }
     }
   }
 }

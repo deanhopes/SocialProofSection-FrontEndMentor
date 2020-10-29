@@ -630,6 +630,16 @@ h1 {
   }
 }
 
+@media (min-width: 1440px) {
+  .testimonials .testiblock__text .textchange span {
+    display: none;
+  }
+  .testimonials .testiblock__text .textchange:after {
+    content: 'Colton Smith';
+    color: white;
+  }
+}
+
 .ratingblock {
   height: 78px;
   background-color: #f7f2f7;
