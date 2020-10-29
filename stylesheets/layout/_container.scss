@@ -10,7 +10,8 @@
 
   @include media('>=1440px') {
     grid-template: 1fr 1fr / 1fr;
-    margin: 165px 127px;
-    max-width: 1110px;
+    margin: 127px 165px;
+    max-width: 1150px;
+    grid-gap: 21.8px 48px;
   }
 }

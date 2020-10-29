@@ -402,8 +402,9 @@ h1 {
     -ms-grid-rows: 1fr 1fr;
     -ms-grid-columns: 1fr;
         grid-template: 1fr 1fr / 1fr;
-    margin: 165px 127px;
-    max-width: 1110px;
+    margin: 127px 165px;
+    max-width: 1150px;
+    grid-gap: 21.8px 48px;
   }
 }
 
@@ -445,7 +446,7 @@ h1 {
 @media (min-width: 1440px) {
   .hero p {
     text-align: left;
-    padding-top: 0;
+    padding-top: 2px;
   }
 }
 
@@ -669,6 +670,7 @@ h1 {
   .hero h1 {
     font-size: 48px;
     line-height: 48px;
+    letter-spacing: -1.71429px;
   }
 }
 
