@@ -614,6 +614,14 @@ h1 {
   height: 3.3em;
 }
 
+@media (min-width: 1440px) {
+  .testimonials .testiblock__container {
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 1fr 3.5fr;
+        grid-template: 1fr / 1fr 3.5fr;
+  }
+}
+
 @media (min-width: 376px) and (max-width: 1060px) {
   .testimonials .testiblock__text {
     -ms-grid-column-align: start;

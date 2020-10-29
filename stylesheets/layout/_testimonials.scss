@@ -47,6 +47,9 @@
       display: grid;
       grid-template: 1fr / 1fr 3.1fr;
       height: 3.3em;
+      @include media('>=1440px') {
+        grid-template: 1fr / 1fr 3.5fr;
+      }
     }
 
     &__text {
