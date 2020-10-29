@@ -373,6 +373,13 @@ body {
   background-position: top, bottom;
 }
 
+@media (min-width: 1440px) {
+  body {
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, center right;
+  }
+}
+
 /**
  * Basic typography style for copy text
  */

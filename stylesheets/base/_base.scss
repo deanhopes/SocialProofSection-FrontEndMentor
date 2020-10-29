@@ -30,4 +30,10 @@ body {
     url(/images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: top, bottom;
+
+  @include media('>=1440px') {
+    background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, center right;
+  }
 }
